@@ -32,7 +32,7 @@
 
 # 결과
 
-JUnit4 버전을 사용하였으며, `수정 전`에는 User Story에 기반하여 Positive test 6개, negative test6개 총 12개 테스트 케이스를 실행하였습니다.</br>
+JUnit4 버전을 사용하였으며, `수정 전`에는 User Story에 기반하여 `Positive Test` 6개, `Negative Test` 6개 총 12개 테스트 케이스를 실행하였습니다.</br>
 `수정 후`에는 Positive test 12개 테스트를 포함하고 **Open Clover**를 사용하여 테스트 커버리지를 높이기 위한 테스트 케이스 6개를 추가로 실행하였습니다.
 
 ### JUnit 테스트 결과
