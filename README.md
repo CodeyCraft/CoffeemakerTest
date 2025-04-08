@@ -36,4 +36,9 @@
 
 |수정 전|수정 후|
 |-----|-----|
-|   |   |
+| ![Image](https://github.com/user-attachments/assets/89521ecb-7652-421b-860b-f928a361c969)  |![Image](https://github.com/user-attachments/assets/0ea96044-0249-4465-82e8-e6c3e17c1048)  |
+
+
+|수정 전|수정 후|
+|-----|-----|
+| ![Image](https://github.com/user-attachments/assets/e5995b5d-3c54-4ddd-9dd8-a579a1678ce4)  |![Image](https://github.com/user-attachments/assets/98fddf19-a959-48d6-84c4-e69ba37a039c)  |
