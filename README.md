@@ -42,7 +42,7 @@
 
 ## 코드 리뷰
 
-### CoffeeMakerTest_Before_Edit 클래스 테스트 항목 (유스케이스별 정리)
+### 1. CoffeeMakerTest_Before_Edit 클래스 테스트 항목 (유스케이스별 정리)
 | 유스케이스 | 테스트 명 | 설명 |
 |------------|------------|------------------|
 | UC1: 레시피 추가 | `testAddRecipe1` | 빈 상태에서 새 레시피 추가 시 정상 저장 여부 확인 |
@@ -59,7 +59,7 @@
 |  | `testpurchaseBeverage2_NG` | 금액 부족 상황에서 구매 실패 및 반환값 확인 |
 
 
-### CoffeeMakerTest_After_Edit 클래스 테스트 항목 (추가 테스트 케이스 정리)
+### 2. CoffeeMakerTest_After_Edit 클래스 테스트 항목 (추가 테스트 케이스 정리)
 | 테스트 명 | 주요 목적 |
 |-----------|------------|
 | `testRecipeCoverage_Plus` | 레시피 비교 (`equals`, `hashCode`) |
