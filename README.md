@@ -40,6 +40,37 @@
 
 ---
 
+## 코드 리뷰
+
+### CoffeeMakerTest_Before_Edit 클래스 테스트 항목 (유스케이스별 정리)
+| 유스케이스 | 테스트 명 | 설명 |
+|------------|------------|------------------|
+| UC1: 레시피 추가 | `testAddRecipe1` | 빈 상태에서 새 레시피 추가 시 정상 저장 여부 확인 |
+|  | `testAddRecipe2_NG` | `"Mocha"` 이름을 `"Latte"`로 비교하는 오류 |
+| UC2: 레시피 삭제 | `testDeleteRecipe1` | 빈 리스트에서 삭제 시 `null` 반환 확인 |
+|  | `testDeleteRecipe2_NG` | 레시피 추가 후 삭제 시 해당 인덱스가 `null`인지 확인 |
+| UC3: 레시피 수정 | `testEditRecipe1` | 가격 변경이 잘 반영되는지 확인 |
+|  | `testEditRecipe2_NG` | 존재하지 않는 인덱스(-1) 수정 시 `null` 반환 확인 |
+| UC4: 인벤토리 추가 | `testAddInventory1` | 정상 수량 입력 시 예외 없이 추가 확인 |
+|  | `testAddInventory2_NG` | 음수 입력 시 `InventoryException` 발생 확인 |
+| UC5: 인벤토리 확인 | `testCheckInventory1` | 초기 인벤토리 상태 검증 |
+|  | `testCheckInventory2_NG` | 잘못된 기대값 사용 (`15 + 6`) |
+| UC6: 음료 구매 | `testpurchaseBeverage1` | 충분한 금액일 때 거스름돈이 정확히 반환되는지 확인 |
+|  | `testpurchaseBeverage2_NG` | 금액 부족 상황에서 구매 실패 및 반환값 확인 |
+
+
+### CoffeeMakerTest_After_Edit 클래스 테스트 항목 (추가 테스트 케이스 정리)
+| 테스트 명 | 주요 목적 |
+|-----------|------------|
+| `testRecipeCoverage_Plus` | 레시피 비교 (`equals`, `hashCode`) |
+| `testRecipeCoverage2_Plus` | 유효하지 않은 입력값에 대한 예외 발생 확인 |
+| `testForRecipeBookCoverage_Plus` | 중복 레시피 등록 확인 |
+| `testCoffeeMakerCoverage_Plus` | 재료 부족 시 구매 실패 확인 |
+| `testInventoryCoverage_Plus` | 재고 부족 시 `enoughIngredients()` 반응 확인 |
+| `testInventoryCoverage2_Plus` | 잘못된 입력값에 대한 예외 처리 검증 |
+
+---
+
 ## 테스트 결과
 
 ### JUnit 테스트
